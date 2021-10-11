@@ -41,7 +41,7 @@ picom
 
   
   
-<h2 id="yay">yay<h2>
+<h2 id="yay">yay</h2>
 - Instalacion del gestor de paquetes yay <sup>AUR</sup> 
  
 ```
