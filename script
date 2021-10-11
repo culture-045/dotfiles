@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+ruta='$HOME/.config'
+
+if [[ -d $ruta/i3 ]]; then
+    rm -rf $ruta/i3 && mv /i3 $ruta
+else
+    mv /i3 $ruta
+fi
+
+if [[ -d $ruta/polybar ]]; then
+    rm -rf $ruta/polybar && mv /polybar $ruta
+else
+    mv /polybar $ruta
+fi
+ echo "Listo"
