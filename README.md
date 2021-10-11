@@ -44,7 +44,7 @@ comandos para instalar los paquetes necesarios:
 ```
  pacman -S slim
 ```
--- Para instalar polybar se necesita del gestor de paquetes <a href="#yay">yay<a>
+- Para instalar polybar se necesita del gestor de paquetes <a href="#yay">yay<a>
 ```
  yay -S polybar
 ```
