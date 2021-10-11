@@ -8,6 +8,12 @@ Archivos de configuracion para el Tiling Window Manager [i3]
 Este repositorio contiene los archivos necesarios para que i3 se vea como en la imagen.
 
 ## Arch Linux
+
+
+Dependencias: <br> `i3` <br> `polybar` <br> `rofi` <br> `picom` <br>
+ 
+
+
 comandos para instalar los paquetes necesarios:
 ```
  pacman -S i3
@@ -23,25 +29,10 @@ pacman -S rofi
  yay -S polybar
 ```
 
-##
-
-Dependencias: <br> 
-`
-i3
-` <br> 
-`
-polybar
-` <br>
-`
-rofi
-` <br>
-`
-picom
-` <br>
-
-  
-  
+Dependencias: <br> `i3` <br> `polybar` <br> `rofi` <br> `picom` <br>
+ 
 <h2 id="yay">yay</h2>
+
 - Instalacion del gestor de paquetes yay <sup>AUR</sup> 
  
 ```
