@@ -58,7 +58,7 @@ comandos para instalar los paquetes necesarios:
  cd dotfiles
 ```
 ```
- ./setup.sh
+ bash script
 ```
 - Reinicie y listo.
  
