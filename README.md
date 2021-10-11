@@ -7,10 +7,18 @@ Archivos de configuracion para el Tiling Window Manager [i3]
 
 Este repositorio contiene los archivos necesarios para que i3 se vea como en la imagen.
 
-##Arch Linux
+## Arch Linux
 
 Dependencias: <br> 
-`i3` <br> 
-`polybar` <br>
-`rofi` <br>
-`picom` <br>
+`
+i3
+` <br> 
+`
+polybar
+` <br>
+`
+rofi
+` <br>
+`
+picom
+` <br>
