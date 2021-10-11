@@ -30,8 +30,7 @@ Este repositorio contiene los archivos necesarios para que i3 se vea como en la 
 Dependencias: <br> `i3` <br> `polybar` <br> `rofi` <br> `picom` <br> `slim`
  
 
-
-comandos para instalar los paquetes necesarios:
+- Instalacion de paquetes necesarios:
 ```
  pacman -S i3
 ```
