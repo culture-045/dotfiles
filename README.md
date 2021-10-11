@@ -42,19 +42,19 @@ picom
   
   
 <h2 id="yay">yay<h2>
-  [ Instalacion del gestor de paquetes yay <sub>AUR</sub> ] 
+- Instalacion del gestor de paquetes yay <sup>AUR</sup> 
  
 ```
-pacman -S git
+ pacman -S git
 ```
 ```
-git clone https://aur.archlinux.org/yay.git
+ git clone https://aur.archlinux.org/yay.git
 ```
 ```
-cd yay  
+ cd yay  
 ```
 ```
-makepkg -si  
+ makepkg -si  
 ```
 
   
