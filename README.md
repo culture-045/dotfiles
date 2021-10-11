@@ -10,7 +10,7 @@ Archivos de configuracion para el Tiling Window Manager [i3]
 - font: Nerd Fonts
 - Wallpaper: custom
 - blockscreen: slimlock
-
+<br>
 <!-- img -->
 <img src="img.png">
 
@@ -27,7 +27,7 @@ Este repositorio contiene los archivos necesarios para que i3 se vea como en la 
 ## Instalacion
 
 
-Dependencias: <br> `i3` <br> `polybar` <br> `rofi` <br> `picom` <br> <br> `slim`
+Dependencias: <br> `i3` <br> `polybar` <br> `rofi` <br> `picom` <br> `slim`
  
 
 
