@@ -2,8 +2,25 @@
 
 Archivos de configuracion para el Tiling Window Manager [i3]
 
+
+- OS: Arch Linux
+- WM: i3
+- Terminal: lxterminal
+- Audio: alsa, pulseaudio
+- font: Nerd Fonts
+- Wallpaper: custom
+- blockscreen: slimlock
+
 <!-- img -->
 <img src="img.png">
+
+### Usa rofi para desplegar un menu para abrir todas las aplicaiones
+
+
+
+### Un menu para acciones de: [bloqueo, reinicio, apagado, suspencion, cierre de sesion]
+
+
 
 Este repositorio contiene los archivos necesarios para que i3 se vea como en la imagen.
 
