@@ -18,7 +18,7 @@ comandos para instalar los paquetes necesarios:
 ```
 pacman -S rofi
 ```
-- Para instalar polybar se necesita del gestor de paquetes <a href="#yay">
+- Para instalar polybar se necesita del gestor de paquetes <a href="#yay">yay<a>
 ```
  yay -S polybar
 ```
