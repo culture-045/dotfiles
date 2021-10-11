@@ -15,11 +15,11 @@ Archivos de configuracion para el Tiling Window Manager [i3]
 <img src="img.png">
 
 ### Usa rofi para desplegar un menu para abrir todas las aplicaiones
-
+<img src="menu.png">
 
 
 ### Un menu para acciones de: [bloqueo, reinicio, apagado, suspencion, cierre de sesion]
-
+<img src="powermenu.png">
 
 
 Este repositorio contiene los archivos necesarios para que i3 se vea como en la imagen.
