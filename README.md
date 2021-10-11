@@ -27,7 +27,7 @@ Este repositorio contiene los archivos necesarios para que i3 se vea como en la 
 ## Instalacion
 
 
-Dependencias: <br> `i3` <br> `polybar` <br> `rofi` <br> `picom` <br>
+Dependencias: <br> `i3` <br> `polybar` <br> `rofi` <br> `picom` <br> <br> `slim`
  
 
 
@@ -39,7 +39,10 @@ comandos para instalar los paquetes necesarios:
  pacman -S picom
 ```
 ```
-pacman -S rofi
+ pacman -S rofi
+```
+```
+ pacman -S slim
 ```
 -- Para instalar polybar se necesita del gestor de paquetes <a href="#yay">yay<a>
 ```
@@ -57,7 +60,7 @@ pacman -S rofi
 ```
  ./setup.sh
 ```
- 
+- Reinicie y listo.
  
 <h2 id="yay">yay</h2>
 
