@@ -7,20 +7,25 @@ Archivos de configuracion para el Tiling Window Manager [i3]
 - WM: i3
 - Terminal: lxterminal
 - Audio: alsa, pulseaudio
-- font: Nerd Fonts
+- font: Iosevka & feather
 - Wallpaper: custom
-- blockscreen: slimlock
+- blockscreen: SLiM
 <br>
 <!-- img -->
-<img src="img.png">
+<img src="screenshots/cap1.png">
 
 ### Usa rofi para desplegar un menu para abrir todas las aplicaiones
-<img src="menu.png">
+<img src="screenshots/menu.png">
 
 
 ### Un menu para acciones de: [bloqueo, reinicio, apagado, suspencion, cierre de sesion]
-<img src="powermenu.png">
+<img src="screenshots/powermenu.png">
 
+
+### Modo Float
+<img src="screenshots/float.png">
+<br>
+<img src="screenshots/vscode.png">
 
 Este repositorio contiene los archivos necesarios para que i3 se vea como en la imagen.
 
