@@ -1,0 +1,112 @@
+
+configuration {
+	font:							"Iosevka Nerd Font 10";
+    show-icons:                     true;
+	icon-theme: 					"Papirus";
+    display-drun: 					"";
+    drun-display-format:            "{name}";
+    disable-history:                false;
+    fullscreen:                     false;
+	hide-scrollbar: 				true;
+	sidebar-mode: 					false;
+}
+
+@import "colors.rasi"
+
+window {
+    transparency:                   "real";
+    background-color:               #000000;
+    text-color:                     #bf8eef;
+	border:							0px;
+	border-color:					@ac;
+    border-radius:                  12px;
+	width:							350px;
+    height:                         500px;
+    location:                       northwest;
+    x-offset:                       0;
+    y-offset:                       26;
+}
+
+prompt {
+    enabled: 						true;
+	padding: 						10px 15px 20px 15px;
+	background-color: 				#000000;
+	text-color: 					#9f1690;
+	font:							"Iosevka Nerd Font 10";
+}
+
+entry {
+    background-color:               #000000;
+    text-color:                     #9f1690;
+    placeholder-color:              #9f1690;
+    expand:                         true;
+    horizontal-align:               0;
+    placeholder:                    "Buscar Programa";
+    padding:                        10px;
+    border-radius:                  0px;
+    blink:                          true;
+}
+
+inputbar {
+	children: 						[ prompt, entry ];
+    background-color:               #000000;
+    text-color:                     #FFFFFF;
+    expand:                         false;
+	border:							0px;
+    border-radius:                  12px;
+	border-color:					#000000;
+    spacing:                        0px;
+}
+
+listview {
+    background-color:               #000000;
+    padding:                        0px;
+    columns:                        1;
+    lines:                          10;
+    spacing:                        5px;
+    cycle:                          true;
+    dynamic:                        true;
+    layout:                         vertical;
+}
+
+mainbox {
+    background-color:               #000000;
+	border:							0px;
+    border-radius:                  0px;
+	border-color:					@bg4;
+    children:                       [ inputbar, listview ];
+    spacing:                        0px;
+    padding:                        0px;
+}
+
+element {
+    background-color:               #000000;
+    text-color:                     #000000;
+    orientation:                    horizontal;
+    border-radius:                  0px;
+    padding:                        6px;
+}
+
+element-icon {
+    background-color:               #00000000;
+    text-color:                     #FFFFFF;
+    size:                           27px;
+    border:                         0px;
+}
+
+element-text {
+    background-color:               #00000000;
+    text-color:                     #bf8eef;
+    expand:                         true;
+    horizontal-align:               0;
+    vertical-align:                 0.5;
+    margin:                         0px 2.5px 0px 2.5px;
+}
+
+element selected {
+    background-color:               #333333;
+    text-color:                     #FFFFFF;
+	border:							0px 0px 0px 0px;
+    border-radius:                  0px;
+    border-color:                   #000000;
+}
